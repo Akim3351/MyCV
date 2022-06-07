@@ -1,0 +1,207 @@
+/* common styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f5f7fa;
+    font-family: Montserrat;
+    
+}
+
+h2, h3{
+    display: flex;
+    align-items: center;
+}
+
+h2 svg,
+h3 svg{
+    margin-right: 10px;
+}
+
+/* aside styles */
+
+.wrapper {
+    background: #fff;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sidebar__photo {
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+}
+
+.sidebar__container{
+    padding: 20px;
+    color:#e4bf90;
+}
+
+.sidebar__h2 {
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sidebar__h3 {
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:active,
+.link:hover{
+    color:#ff8c00;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar__icon{
+    margin-right: 15px;
+    height: 15px;
+    width: 25px;
+    fill: currentColor;
+}
+
+.sidebar__list{
+    padding-left: 20px;
+    color: #ff8c00;
+}
+
+.list__item{
+    color: #fff;
+}
+
+/* about me block styles */
+
+.about__wrapper{
+    padding: 20px;
+    background-color: #e4c0906e;
+}
+
+.about__name{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about__summary{
+    font-size: 20px;
+    text-align: center;
+}
+
+.about__education,
+.about__experience,
+.about__languages{
+    margin-top: 15px;
+    padding: 20px 0px;
+    border-top: #1e2939 1px solid;
+}
+
+.aside__icon,
+.education__icon,
+.experience__icon,
+.languages__icon,
+.arrow__icon{
+    fill: currentColor;
+    height: 20px;
+    width: 20px;
+}
+
+.education__item,
+.experience__item{
+    padding-top: 15px;
+}
+
+.education__profession,
+.experience__profession{
+    margin: 10px 0px;
+}
+
+.education__school,
+.experience__place{
+    text-transform: uppercase;
+    color: #1e2939;
+    font-weight: 600;
+}
+
+.education__achievements,
+.experience__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.education__achievements p,
+.experience__description p{
+    margin: 5px 0px;
+}
+
+.education__projects,
+.languages__list{
+    list-style-type:circle;
+    padding-left: 20px;
+    color: #ff8c00;
+}
+
+.education__projects p{
+    color: #1e2939;
+    font-weight: 600;
+}
+
+.project__link{
+    text-decoration: none;
+    color:#505050;
+    font-weight: 600;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project__link:active,
+.project__link:hover {
+    color: #ff8c00;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.languages__list{
+    padding-top: 15px;
+}
+
+.languages__list span{
+    color: #1e2939;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.languages__list p{
+    color: #000;
+}
+
+
