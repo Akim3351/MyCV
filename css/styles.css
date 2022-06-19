@@ -15,8 +15,8 @@ body {
     padding-right: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #e4c0906e;
-    max-width: 1200px;
+    width: 1200px;
+    height: 1700px;
 }
 
 
@@ -29,7 +29,8 @@ h2, h3{
     color: #1e2939;
     display: flex;
     margin: 0 auto;
-    /* box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15); */
+    background-color: #e4c0906e;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* aside styles */
