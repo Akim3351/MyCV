@@ -15,8 +15,6 @@ body {
     padding-right: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 1200px;
-    height: 1700px;
 }
 
 
@@ -27,6 +25,8 @@ h2, h3{
 
 .wrapper {
     color: #1e2939;
+    width: 1200px;
+    height: 1700px;
     display: flex;
     margin: 0 auto;
     background-color: #e4c0906e;
